@@ -1,6 +1,6 @@
 body {
-    background-color: #2018359f;
-    color: #e0e0e0a8;
+    background-color: #150f24;
+    color: #afafaf;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
@@ -26,6 +26,6 @@ a:hover {
 hr {
     border: 0;
     height: 5px;
-    background: #8c80cf2f;
+    background: #4b437a;
     margin: 40px 0;
 }
