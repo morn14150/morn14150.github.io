@@ -1,6 +1,6 @@
 body {
-    font-family: "Yu Gothic", "YuGothic";
-    background-color: #201835;
+    font-family: "Yu Gothic", "YuGothic", sans-serif;
+    background-color: #150f24;
     color: #e0e0e0;
     line-height: 1.6;
     max-width: 800px;
