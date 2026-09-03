@@ -1,3 +1,9 @@
+@font-face {
+    font-family: YuGothic;
+    src: url("fonts/YuGothic.woff2");
+    font-weight: normal;
+}
+
 body {
     background-color: #0d0918;
     color: #e0e0e0;
