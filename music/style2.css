@@ -1,5 +1,10 @@
+@font-face {
+    font-family: YuGothic;
+    src: url("fonts/YuGothic.woff2");
+    font-weight: normal;
+}
+
 body {
-    font-family: "Yu Gothic", "YuGothic", sans-serif;
     background-color: #150f24;
     color: #e0e0e0;
     line-height: 1.6;
