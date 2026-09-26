@@ -5,6 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/moresocials/style2.css">
+  <style>
+    .platform-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .platform-left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .platform-left h3, .platform-left p, .platform-left small {
+      margin: 0;
+    }
+    
+    .platform-right p {
+      margin: 0;
+    }
+
+    .platform-left small {
+      margin-top: 5px; 
+    }
+  </style>
 </head>
 <body>
 <h2><a href="/">Return</a></h2>
@@ -13,9 +38,15 @@
 
 <hr>
 
-<h3>SoundCloud</h3>
-<h7>(No new tracks will be put out)</h7>
-<p><a href="https://soundcloud.com/sinerack">https://soundcloud.com/sinerack</a></p>
+<div class="platform-row">
+  <div class="platform-left">
+    <h3>SoundCloud</h3>
+    <small>(No new tracks will be put out)</small>
+  </div>
+  <div class="platform-right">
+    <p><a href="https://soundcloud.com/sinerack">https://soundcloud.com/sinerack</a></p>
+  </div>
+</div>
 
 </body>
 </html>
