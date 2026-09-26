@@ -5,6 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
+  <style>
+    .platform-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .platform-left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .platform-left h3, .platform-left p, .platform-left small {
+      margin: 0;
+    }
+    
+    .platform-right p {
+      margin: 0;
+    }
+
+    .platform-left small {
+      margin-top: 5px; 
+    }
+  </style>
 </head>
 </head>
 <body>
@@ -14,15 +39,21 @@
 <hr>
 <h2>Platforms</h2>
 
-<h3>Newgrounds</h3>
-<p><a href="https://sinerack.newgrounds.com/">https://sinerack.newgrounds.com/</a></p>
+<div class="platform-row">
+  <div class="platform-left">
+    <h3>Newgrounds</h3>
+  </div>
+  <div class="platform-right">
+    <p><a href="https://sinerack.newgrounds.com/">https://sinerack.newgrounds.com/</a></p>
+  </div>
+</div>
 
 <h3>YouTube</h3>
-<h7>(currently inactive)</h7>
+<small>(currently inactive)</small>
 <p><a href="https://www.youtube.com/@siner4ck">https://www.youtube.com/@siner4ck</a></p>
 
 <h3>Discord</h3>
-<h7>(Message requests only, no friend requests!)</h7>
+<small>(Message requests only, no friend requests!)</small>
 <p><a href="https://discord.com/users/627694922547462155">https://discord.com/users/627694922547462155</a></p>
 
 <h3>Email</h3>
