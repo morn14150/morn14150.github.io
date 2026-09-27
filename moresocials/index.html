@@ -27,7 +27,20 @@
     }
 
     .platform-left small {
-      margin-top: 5px; 
+      margin-top: 5px;
+    }
+
+    /* MOBILE LAYOUT */
+    @media (max-width: 600px) {
+      .platform-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .platform-right a {
+        overflow-wrap: break-word; 
+      }
     }
   </style>
 </head>
