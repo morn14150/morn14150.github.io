@@ -1,0 +1,9 @@
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("/fonts/BeVietnamPro400Normal.woff2");
+    font-weight: normal;
+}
+
+body {
+    font-family: "Be Vietnam Pro", "BeVietnamPro", sans-serif;
+}
