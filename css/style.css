@@ -36,3 +36,50 @@ hr {
     background: #8c80cf;
     margin: 40px 0;
 }
+
+.site-banner {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 4px;
+}
+
+.platform-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.platform-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.platform-left h3, 
+.platform-left h5, 
+.platform-left p, 
+.platform-left small, 
+.platform-right p, 
+.platform-right h5 {
+    margin: 0;
+}
+
+.platform-left small {
+    margin-top: 5px;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+    .platform-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .platform-right a {
+        overflow-wrap: break-word; 
+    }
+}
