@@ -8,6 +8,18 @@ p {
     margin-top: 1;
 }
 
+a {
+    color: #00c1d6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.1s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .site-banner {
     width: 100%;
     max-width: 800px;
