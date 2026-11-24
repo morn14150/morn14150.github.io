@@ -11,13 +11,13 @@ p {
 a {
     color: #00c1d6;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.1s ease-in-out;
+    font-weight: normal;
+    transition: color 0.0s ease-in-out;
 }
 
 a:hover {
     color: #ffffff;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .site-banner {
